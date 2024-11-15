@@ -79,7 +79,7 @@
     &kp ESC    &mt_alctl LALT Q &mt_gui   LGUI W &mt_alctl LCTRL E &mt_shift LSHFT R &kp T &kp Y &mt RSFT U &mt RCTL I &mt_gui   RGUI O &mt_alctl LALT P    &kp LBKT
     &caps_word &mt_gui   LGUI A &mt_alctl LALT S &mt_shift LSHFT D &mt_alctl LCTRL F &kp G &kp H &mt RCTL J &mt RSFT K &mt_alctl LALT L &mt_gui   RGUI SEMI &kp SQT
     &kp LSHFT  &kp Z           &kp X            &kp C             &kp V             &kp B &kp N &kp M      &kp COMMA  &kp DOT          &kp FSLH            &kp RSFT
-    &lt KEYBOARD TAB  &lt FUN ESC &lt NUM BKSP
+    &lt KEYBOARD TAB  &lt FUN ESC &lt NUM BSPC
     &lt_spc MOUSE SPC &lt NAV ENT &lt KEYBOARD DEL
         >;
     };
