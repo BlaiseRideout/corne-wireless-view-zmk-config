@@ -76,20 +76,19 @@
     BASE {
         display-name = "BASE";
         bindings = <
-    &kp ESC    &mt_alctl LALT Q &mt_gui   LGUI W &mt_alctl LCTRL E &mt_shift LSHFT R &kp T &kp Y &mt RSFT U &mt RCTL I &mt_gui   RGUI O &mt_alctl LALT P    &kp LBKT
-    &caps_word &mt_gui   LGUI A &mt_alctl LALT S &mt_shift LSHFT D &mt_alctl LCTRL F &kp G &kp H &mt RCTL J &mt RSFT K &mt_alctl LALT L &mt_gui   RGUI SEMI &kp SQT
-    &kp LSHFT  &kp Z           &kp X            &kp C             &kp V             &kp B &kp N &kp M      &kp COMMA  &kp DOT          &kp FSLH            &kp RSFT
-    &lt KEYBOARD TAB  &lt FUN ESC &lt NUM BSPC
-    &lt_spc MOUSE SPC &lt NAV ENT &lt KEYBOARD DEL
+    &kp ESC    &mt_alctl LALT Q &mt_gui   LGUI W &mt_alctl LCTRL E &mt_shift LSHFT R &kp T &kp Y &mt RSHFT U &mt RCTRL I &mt_gui   RGUI O &mt_alctl LALT P    &kp LBKT
+    &caps_word &mt_gui   LGUI A &mt_alctl LALT S &mt_shift LSHFT D &mt_alctl LCTRL F &kp G &kp H &mt RCTRL J &mt RSHFT K &mt_alctl LALT L &mt_gui   RGUI SEMI &kp SQT
+    &kp LSHFT  &kp Z            &kp X            &kp C             &kp V             &kp B &kp N &kp M       &kp COMMA   &kp DOT          &kp FSLH            &kp RSHFT
+    &lt KEYBOARD TAB  &lt FUN ESC &lt NUM BSPC &lt_spc MOUSE SPC &lt NAV ENT &lt KEYBOARD DEL
         >;
     };
     // num/sym
     NUM {
         display-name = "NUM";
         bindings = <
-    &kp GRAVE &kp EXCL        &kp AT            &kp HASH           &kp DLLR           &kp PRCNT  &kp CARET   &kp AMPS    &kp ASTRK   &kp LPAR          &kp RPAR        &kp EQUAL
-    &kp TILDE &mt_gui LGUI N1 &mt_alctl LALT N2 &mt_shift LSHFT N3 &mt_alctl LCTRL N4 &kp N5     &kp N6      &mt RCTL N7 &mt RSFT N8 &mt_alctl LALT N9 &mt_gui RGUI N0 &kp MINS
-    &trans    &kp GRAVE       &kp TILDE         &kp E              &kp UNDS           &kp PLUS   &kp LS(Z)   &kp RBKT    &kp RBRC    &kp PIPE          &kp BSLH        &trans
+    &kp GRAVE &kp EXCL        &kp AT            &kp HASH           &kp DLLR           &kp PRCNT  &kp CARET   &kp AMPS     &kp ASTRK    &kp LPAR          &kp RPAR        &kp EQUAL
+    &kp TILDE &mt_gui LGUI N1 &mt_alctl LALT N2 &mt_shift LSHFT N3 &mt_alctl LCTRL N4 &kp N5     &kp N6      &mt RCTRL N7 &mt RSHFT N8 &mt_alctl LALT N9 &mt_gui RGUI N0 &kp MINS
+    &trans    &kp GRAVE       &kp TILDE         &kp E              &kp UNDS           &kp PLUS   &kp LS(Z)   &kp RBKT     &kp RBRC     &kp PIPE          &kp BSLH        &trans
     &trans &trans &trans &trans &trans &trans
         >;
     };
@@ -131,18 +130,17 @@
     &bootloader &tog BASE    &tog DVORAK  &tog GAME    &trans       &trans       &trans &trans &trans &trans &trans &trans
     &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans
     &trans   &trans &trans    &trans  &trans &trans &trans &trans &trans &trans &trans &trans
-    &trans   &tog FUN &tog NUM
-    &tog MOUSE &tog NAV &trans
+    &trans   &tog FUN &tog NUM &tog MOUSE &tog NAV &trans
         >;
     };
     // dvorak
     DVORAK {
         display-name = "DVORAK";
         bindings = <
-    &kp ESC    &kp SQT        &kp COMMA        &kp DOT &kp P &kp Y &kp F &kp G         &mt RCTL C &kp R &kp L            FSLH
-    &caps_word &mt_gui LGUI A &mt_alctl LALT O &mt_shift LSHFT E &mt_alctl LCTRL U &kp I &kp D &mt RCTL H &mt RSFT T &mt_alctl LALT N &mt_gui   RGUI S &kp MINS
-    &kp LSHFT  &kp SEMI       &kp Q            &kp J             &kp K             &kp X &kp B &kp M      &kp W      &kp V            &kp Z            &kp RSFT
-    &trans &trans      &trans      &trans      &trans      &trans
+    &kp ESC    &mt_alctl LALT SQT &mt_gui LGUI COMMA &mt_alctl LCTRL DOT &mt_shift LSHFT P &kp Y &kp F &mt RSHFT G &mt RCTRL C &mt_gui   RGUI R &mt_alctl LALT L &kp FSLH
+    &caps_word &mt_gui LGUI A     &mt_alctl LALT O   &mt_shift LSHFT E   &mt_alctl LCTRL U &kp I &kp D &mt RCTRL H &mt RSHFT T &mt_alctl LALT N &mt_gui   RGUI S &kp MINS
+    &kp LSHFT  &kp SEMI           &kp Q              &kp J               &kp K             &kp X &kp B &kp M       &kp W       &kp V            &kp Z            &kp RSHFT
+    &trans &trans &trans &trans &trans &trans
         >;
     };
     // gaming
@@ -151,9 +149,8 @@
         bindings = <
     &kp ESC   &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I     &kp O   &kp P    &kp LBKT
     &kp TAB   &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K     &kp L   &kp SEMI &kp SQT
-    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSFT
-    &lt KEYBOARD TAB  &lt FUN ESC &lt NUM SPC
-    &lt_spc MOUSE SPC &lt NAV ENT &lt KEYBOARD DEL
+    &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+    &lt KEYBOARD TAB  &lt FUN ESC &lt NUM SPC &lt_spc MOUSE SPC &lt NAV ENT &lt KEYBOARD DEL
         >;
     };
 };
