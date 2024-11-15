@@ -96,8 +96,8 @@
         display-name = "NUM";
         bindings = <
     &kp GRAVE &kp EXCL        &kp AT            &kp HASH           &kp DLLR           &kp PRCNT  &kp CARET   &kp AMPS     &kp ASTRK    &kp LPAR          &kp RPAR        &kp EQUAL
-    &kp TILDE &mt_gui LGUI N1 &mt_alctl LALT N2 &mt_shift LSHFT N3 &mt_alctl LCTRL N4 &kp N5     &kp N6      &mt RCTRL N7 &mt RSHFT N8 &mt_alctl LALT N9 &mt_gui RGUI N0 &kp MINS
-    &trans    &kp GRAVE       &kp TILDE         &kp E              &kp UNDS           &kp PLUS   &kp LS(Z)   &kp RBKT     &kp RBRC     &kp PIPE          &kp BSLH        &trans
+    &kp TILDE &mt_gui LGUI N1 &mt_alctl LALT N2 &mt_shift LSHFT N3 &mt_alctl LCTRL N4 &kp N5     &kp N6      &mt RCTRL N7 &mt RSHFT N8 &mt_alctl LALT N9 &mt_gui RGUI N0 &kp MINUS
+    &trans    &kp GRAVE       &kp TILDE         &kp E              &kp UNDER          &kp PLUS   &kp LS(Z)   &kp RBKT     &kp RBRC     &kp PIPE          &kp BSLH        &trans
     &trans &trans &trans &trans &trans &trans
         >;
     };
@@ -147,7 +147,7 @@
         display-name = "DVORAK";
         bindings = <
     &kp ESC    &mt_alctl LALT SQT &mt_gui LGUI COMMA &mt_alctl LCTRL DOT &mt_shift LSHFT P &kp Y &kp F &mt RSHFT G &mt RCTRL C &mt_gui   RGUI R &mt_alctl LALT L &kp FSLH
-    &caps_word &mt_gui LGUI A     &mt_alctl LALT O   &mt_shift LSHFT E   &mt_alctl LCTRL U &kp I &kp D &mt RCTRL H &mt RSHFT T &mt_alctl LALT N &mt_gui   RGUI S &kp MINS
+    &caps_word &mt_gui LGUI A     &mt_alctl LALT O   &mt_shift LSHFT E   &mt_alctl LCTRL U &kp I &kp D &mt RCTRL H &mt RSHFT T &mt_alctl LALT N &mt_gui   RGUI S &kp MINUS
     &kp LSHFT  &kp SEMI           &kp Q              &kp J               &kp K             &kp X &kp B &kp M       &kp W       &kp V            &kp Z            &kp RSHFT
     &trans &trans &trans &trans &trans &trans
         >;
