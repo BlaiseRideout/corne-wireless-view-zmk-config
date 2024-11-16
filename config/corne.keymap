@@ -137,7 +137,7 @@
     BOARD_LAYER {
         display-name = "BOARD";
         bindings = <
-    &bootloader &tog BASE    &tog DVORAK  &tog GAME    &trans       &trans       &trans &trans &trans &trans &trans &trans
+    &bootloader &tog BASE    &tog DVORAK  &tog GAME    &trans       &trans       &trans &trans &trans &trans &trans &bootloader
     &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans
     &trans      &trans       &trans       &trans       &trans       &trans       &trans &trans &trans &trans &trans &trans
     &trans &tog FUN &tog NUM  &tog MOUSE &tog NAV &trans
