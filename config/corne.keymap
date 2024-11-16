@@ -163,4 +163,5 @@
     &lt KEYBOARD TAB &lt FUN ESC &lt NUM SPACE  &lt_spc MOUSE SPACE &lt NAV ENTER &lt KEYBOARD DEL
         >;
     };
+  };
 };
