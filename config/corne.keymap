@@ -14,7 +14,7 @@
 #define NAV 2
 #define FUN 3
 #define MOUSE 4
-#define KEYBOARD 5
+#define BOARD 5
 #define DVORAK 6
 #define GAME 7
 
@@ -89,7 +89,7 @@
     &kp ESC    &mt_actl LALT Q &mt_gui  LGUI W &mt_actl LCTRL E &mt_shft LSHFT R &kp T &kp Y &mt_shft RSHFT U &mt_actl RCTRL I &mt_gui  RGUI O &mt_actl LALT P    &kp LBKT
     &caps_word &mt_gui  LGUI A &mt_actl LALT S &mt_shft LSHFT D &mt_actl LCTRL F &kp G &kp H &mt_actl RCTRL J &mt_shft RSHFT K &mt_actl LALT L &mt_gui  RGUI SEMI &kp SQT
     &kp LSHFT  &kp Z           &kp X            &kp C           &kp V            &kp B &kp N &kp M            &kp COMMA        &kp DOT         &kp FSLH           &kp RSHFT
-    &lt KEYBOARD TAB &lt FUN ESC &lt NUM BSPC  &lt_spc MOUSE SPACE &lt NAV ENTER &lt KEYBOARD DEL
+    &lt BOARD TAB &lt FUN ESC &lt NUM BSPC  &lt_spc MOUSE SPACE &lt NAV ENTER &lt BOARD DEL
         >;
     };
     // num/sym
@@ -134,8 +134,8 @@
         >;
     };
     // keyboard
-    KEYBOARD_LAYER {
-        display-name = "KEYBOARD";
+    BOARD_LAYER {
+        display-name = "BOARD";
         bindings = <
     &bootloader &tog BASE    &tog DVORAK  &tog GAME    &trans       &trans       &trans &trans &trans &trans &trans &trans
     &bt BT_CLR  &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &trans &trans &trans &trans &trans &trans
@@ -160,7 +160,7 @@
     &kp ESC   &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I     &kp O   &kp P    &kp LBKT
     &kp TAB   &kp A &kp S &kp D &kp F &kp G &kp H &kp J &kp K     &kp L   &kp SEMI &kp SQT
     &kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp N &kp M &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-    &lt KEYBOARD TAB &lt FUN ESC &lt NUM SPACE  &lt_spc MOUSE SPACE &lt NAV ENTER &lt KEYBOARD DEL
+    &lt BOARD TAB &lt FUN ESC &lt NUM SPACE  &lt_spc MOUSE SPACE &lt NAV ENTER &lt BOARD DEL
         >;
     };
   };
