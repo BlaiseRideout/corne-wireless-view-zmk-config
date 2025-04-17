@@ -35,6 +35,14 @@
   continue-list = <UNDERSCORE MINUS BACKSPACE DELETE SEMI SQT DOT COMMA SLASH>;
 };
 
+&mmv {
+    x-input-code = <INPUT_REL_X>;
+    y-input-code = <INPUT_REL_Y>;
+    time-to-max-speed-ms = <45>;
+    acceleration-exponent = <1>;
+};
+
+
 / {
   behaviors {
     mt_shft: mt_shft {
@@ -79,14 +87,6 @@
       flavor = "tap-preferred";
       bindings = <&mo>, <&kp>;
     };
-
-    &mmv {
-        x-input-code = <INPUT_REL_X>;
-        y-input-code = <INPUT_REL_Y>;
-        time-to-max-speed-ms = <45>;
-        acceleration-exponent = <1>;
-    };
-
   };
 
   keymap {
